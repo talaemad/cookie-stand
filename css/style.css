@@ -12,8 +12,11 @@ div{
 .list{
     display: inline-block;
     font-size:larger;
+    color:#0f2744;
+
     margin-left: 20px;
     float:right;
+    text-decoration: none;
 }
 div li{
     font-size:larger;
