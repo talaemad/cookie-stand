@@ -1,0 +1,28 @@
+body{
+    background-color:#7c9473;
+    color:#0f2744;
+    font-size:larger;
+    font-family:monospace;
+    font-weight:bold;
+}
+div{
+    display: inline-block;
+    margin:60px 10px;
+}
+.list{
+    display: inline-block;
+    font-size:larger;
+    margin-left: 20px;
+    float:right;
+}
+div li{
+    font-size:larger;
+}
+
+.imges{
+    display: inline-block;
+    margin-top:190px;
+}
+.head{
+    margin: 10px 250px;
+}
