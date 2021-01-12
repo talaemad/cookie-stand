@@ -105,8 +105,7 @@ footer{
     width: 100%;
     line-height: 50px; 
     text-align: center;
-    position: absolute;
-    top: 300%;
+    margin-top: 100px;
 }
 .div-location{
     margin: 10px 130px;
@@ -148,6 +147,5 @@ figcaption{
     width: 100%;
     line-height: 50px; 
     text-align: center;
-    position: absolute;
-    top: 93.6%;
+    margin-top: 130px;
 }
