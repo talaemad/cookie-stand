@@ -19,7 +19,25 @@
         </nav>
     </header>
     <main>
-        <div id="table"></div>    
+        <form action="" id="addLocation">
+            <fieldset>
+                <legend> Create New Location </legend>
+                <label for="">The Name</label>
+                <input type="text" name="lname" id="lname" required placeholder="add text[a-z]" pattern="[-a-zA-Z]*">
+                <br> <br>
+                <label for="minCus">The minumime custmore</label>
+                <input type="number" name="minCust" id="minCust" required placeholder="add just numbers" min="0">
+                <br> <br>
+                <label for="maxCus">The minumime custmore</label>
+                <input type="number" name="maxCust" id="maxCust" required placeholder="add just numbers" min="0">
+                <br> <br>
+                <label for="avgCookieSale">The average cookies sale</label>
+                <input type="number" name="avgCookieSale" id="avgCookieSale" step="0.01" required placeholder="add just numbers you can use fraction 0.00" min="0">
+                <br>
+                <input type="submit" id="submit" >
+            </fieldset>
+        </form>  
+        <div id="table"></div> 
     </main>
     <footer id="sales-footer">
             &copy;Tala Emad
