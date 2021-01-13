@@ -69,7 +69,7 @@ margin: 30px 350px;
 }
 table{  
     border-collapse: collapse;
-    font-size: larger;
+    font-size: large;
     margin-left: 20px;
     margin-top: 50px;
 }
@@ -148,4 +148,27 @@ figcaption{
     line-height: 50px; 
     text-align: center;
     margin-top: 130px;
+}
+fieldset{
+    border: 3px solid  #3B2215;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 50px;
+    width: 500px;
+    margin: 30px 350px;
+}
+input:invalid{
+    background-color: darkred;
+}
+input:valid{
+    background-color:green;
+}
+#submit{
+    background-color:#3B2215 ;
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    float: right;
+    color:#f0c79e;
+    font-size: large ;
 }
